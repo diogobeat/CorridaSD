@@ -9,11 +9,11 @@ import java.io.*;
 
 public class Server_Corrida {
 	static int DEFAULT_PORT=8081;
-	public static Corrida corrida;
+	public static Corrida race;
 	
 	public void atulizarConteudo(int volta) {
-		this.corrida.setVolta(volta);
-		this.corrida.update();
+		this.race.setVolta(volta);
+		this.race.update();
 	}
 	
 	public static void main(String[] args) {
