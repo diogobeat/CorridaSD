@@ -15,6 +15,11 @@ public class ServerHandler extends Thread {
 
 	public ServerHandler(Socket ligacao) {
 		this.ligacao = ligacao;
+		
+		
+		
+		
+		
 				
 		try
 		{	// cria uma InputStream para ler os dados que chegam do socket
